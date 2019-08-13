@@ -9,7 +9,7 @@ import Side from '../Navigation/Side/Side'
 class Layout extends Component {
 
     state = {
-        ShowSide: true
+        ShowSide: false
     }
 
     SideCloser = () => {
@@ -17,8 +17,8 @@ class Layout extends Component {
     }
 
     sideDrawerToggle = () => {
-        this.setState((preState) => {
-            return { ShowSide: !this.state.ShowSide };
+        this.setState((prevState) => {
+            return { ShowSide: !prevState.ShowSide };
         })
 
     }
