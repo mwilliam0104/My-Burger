@@ -17,7 +17,7 @@ const burrito = (props) => {
         return arr.concat(el)
     }, [ ])
     if (tansformedIngredients.length === 0){
-        tansformedIngredients = <p>Please stat adding ingredients.</p>
+        tansformedIngredients = <p>Please start adding ingredients.</p>
 
     }
     console.log(tansformedIngredients)
