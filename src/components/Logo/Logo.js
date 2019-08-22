@@ -1,6 +1,6 @@
 import React from 'react';
 
-import burritologo from '../../assest/images/burritoLogo.png'
+import burritologo from '../../assest/images/burger.png'
 import classes from './Logo.css'
 
 
